@@ -1,6 +1,13 @@
+# scout-and-vue-search-engine
+Search functionality with Laravel Scout and Vue.js
+
 # Installation :
 
-1. git clone https://github.com/RachidLaasri/laravel-scout-and-vuejs.git scout
-2. cd scout & composer install
+1. git clone
+2. cd folder & composer install
+3. hit test.dev in your browser
 
-That's all!
+# Setup
+
+1. composer create-project --prefer-dist laravel/laravel search
+2. php artisan key:generate
