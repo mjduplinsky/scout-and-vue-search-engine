@@ -1,6 +1,10 @@
 # scout-and-vue-search-engine
 Search functionality with Laravel Scout and Vue.js
 
+# Demo
+
+> DEMO: <a href="http://mduplinsky.me/projects/scout-and-vue-search-engine/">http://mduplinsky.me/projects/scout-and-vue-search-engine/</a>
+
 # Installation :
 
 1. git clone
