@@ -11,13 +11,11 @@
 |
 */
 
-$factory->define(App\User::class, function (Faker\Generator $faker) {
-    static $password;
-
+$factory->define(App\Product::class, function (Faker\Generator $faker) {
     return [
-        'name' => $faker->name,
-        'email' => $faker->unique()->safeEmail,
-        'password' => $password ?: $password = bcrypt('secret'),
-        'remember_token' => str_random(10),
+        'title' => $faker->sentence(),
+        'image' => 'http://loremflickr.com/400/300?random='.rand(1, 100),
+        'price' => $faker->numberBetween(3, 100),
+        'description' => $faker->paragraph(2)
     ];
 });
